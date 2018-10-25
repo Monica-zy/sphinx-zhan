@@ -10,7 +10,8 @@ Welcome to projector user manual's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-
+2-howto/install.rst
+2-howto/hello.md
 
 Indices and tables
 ==================
