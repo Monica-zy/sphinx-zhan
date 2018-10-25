@@ -19,14 +19,14 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'sphinx demo'
-copyright = '2018, zhanying'
-author = 'zhanying'
+project = u'projector user manual'
+copyright = u'2018, team1'
+author = u'team1'
 
 # The short X.Y version
-version = ''
+version = u''
 # The full version, including alpha/beta/rc tags
-release = '1'
+release = u'1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -67,15 +67,15 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'zh_cn'
+language = u'zh_cn'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-# This pattern also affects html_static_path and html_extra_path.
+# This pattern also affects html_static_path and html_extra_path .
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = None
+pygments_style = 'sphinx'
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -83,7 +83,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -110,7 +110,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'sphinxdemodoc'
+htmlhelp_basename = 'projectorusermanualdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -137,8 +137,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'sphinxdemo.tex', 'sphinx demo Documentation',
-     'zhanying', 'manual'),
+    (master_doc, 'projectorusermanual.tex', u'projector user manual Documentation',
+     u'team1', 'manual'),
 ]
 
 
@@ -147,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'sphinxdemo', 'sphinx demo Documentation',
+    (master_doc, 'projectorusermanual', u'projector user manual Documentation',
      [author], 1)
 ]
 
@@ -158,8 +158,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'sphinxdemo', 'sphinx demo Documentation',
-     author, 'sphinxdemo', 'One line description of project.',
+    (master_doc, 'projectorusermanual', u'projector user manual Documentation',
+     author, 'projectorusermanual', 'One line description of project.',
      'Miscellaneous'),
 ]
 
@@ -168,6 +168,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = project
+epub_author = author
+epub_publisher = author
+epub_copyright = copyright
 
 # The unique identifier of the text. This can be a ISBN number
 # or the project homepage.
