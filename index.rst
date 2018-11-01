@@ -10,19 +10,19 @@
    :maxdepth: 2
    :caption: 本说明书的目标用户特征
 
-1-introduction/info.rst
+   1-introduction/info.md.
 
 .. toctree::
    :maxdepth: 2
    :caption: 目标用户需要用到的基本功能
 
-2-basic function/note.rst
+   2-basic function/note.md.
 
 .. toctree::
    :maxdepth: 2
    :caption: 常见问题与解决办法
 
-3-common problems/note.rst
+   3-common problems/note.md.
 
 
 Indices and tables
