@@ -19,7 +19,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = u'projector user manual'
+project = u'usermanual of'
 copyright = u'2018, team1'
 author = u'team1'
 
@@ -110,7 +110,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'projectorusermanualdoc'
+htmlhelp_basename = 'usermanualofdoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -137,7 +137,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'projectorusermanual.tex', u'projector user manual Documentation',
+    (master_doc, 'usermanualof.tex', u'usermanual of Documentation',
      u'team1', 'manual'),
 ]
 
@@ -147,7 +147,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'projectorusermanual', u'projector user manual Documentation',
+    (master_doc, 'usermanualof', u'usermanual of Documentation',
      [author], 1)
 ]
 
@@ -158,8 +158,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'projectorusermanual', u'projector user manual Documentation',
-     author, 'projectorusermanual', 'One line description of project.',
+    (master_doc, 'usermanualof', u'usermanual of Documentation',
+     author, 'usermanualof', 'One line description of project.',
      'Miscellaneous'),
 ]
 
